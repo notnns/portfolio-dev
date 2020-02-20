@@ -1,12 +1,24 @@
 body{
     margin: 0;
     font-family: 'Oswald', sans-serif;
-
 }
+
 
 h1{
     font-size: 50px;
     color: blueviolet;
+}
+
+
+h2{
+    font-size: 40px;
+    color: greenyellow;
+}
+
+
+h3{
+    font-size: 30px;
+    color: palevioletred;
 }
 
 .name_highlight{
@@ -20,14 +32,16 @@ h1{
     padding-left: 2%;
 }
 
+
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
+
 
 .top-banner{
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
-    background-position: left;
+    
 }
 
 section{
@@ -55,4 +69,8 @@ section{
     background-position: right;
     background-image: url("../images/dream-bg.png");
     background-repeat: no-repeat;
+}
+
+.experiences{
+    
 }
