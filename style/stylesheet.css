@@ -3,6 +3,10 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+body p{
+    font-size: 20px;
+}
+
 
 h1{
     font-size: 50px;
@@ -11,13 +15,13 @@ h1{
 
 
 h2{
-    font-size: 40px;
-    color: greenyellow;
+    font-size: 35px;
+    color: rgb(173, 35, 0);
 }
 
 
 h3{
-    font-size: 30px;
+    font-size: 25px;
     color: palevioletred;
 }
 
@@ -52,7 +56,7 @@ section{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(90deg, lightsalmon, tomato);
-    padding: 10px 20px;
+    padding: 15px 25px;
     border-radius: 8px;
     color: white;
 }
@@ -60,7 +64,7 @@ section{
 .resume-button{
     text-decoration: none;
     background-image: linear-gradient(90deg, green, orange);
-    padding: 10px 20px;
+    padding: 15px 25px;
     border-radius: 8px;
     color: white;
 }
@@ -72,5 +76,34 @@ section{
 }
 
 .experiences{
-    
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: 45%;
+
+}
+
+.single-experiences{
+    box-shadow: 15px 15px 40px grey;
+    height: 70%;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-dev{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    size: 20px;
 }
